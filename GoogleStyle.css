@@ -1,0 +1,87 @@
+.container_center{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.header{
+    display: block;
+    text-align: right;
+    /*position: fixed;
+    top:1%;
+    right:1%;*/
+}
+
+/*.logo{
+    display: block;
+    background-color: blue;
+    max-width: 90vw;
+    margin: auto;
+    height: 20vh;
+
+}*/
+
+img{
+    display: block;
+    max-width: 100%;
+    min-width: 100px;
+    height: auto;
+    position: relative;
+    margin: 10vh auto 2vh auto;    
+}
+
+input[type=text]{
+    display: flex;
+    width: calc(100% - 10vw);
+    max-width: 584px;
+    text-align: center;
+    height: 44px;
+    margin: 20px auto;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+.GsearchButton{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+input:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.GoogleLink{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 50px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.GoogleLink:hover{
+    text-decoration: underline;
+}
+

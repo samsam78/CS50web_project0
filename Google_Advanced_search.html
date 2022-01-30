@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="GoogleStyle.css">
+        <title>Search</title>
+        <style>
+            input[type=text]{
+                width:50%;
+                padding: auto;
+                margin: auto;
+            }
+            input[type=submit]{
+            width:10%;
+            margin: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <a href="Google_search.html"> Google search </a>
+        </div>
+        <h1>Advanced search</h1>
+        <h2 id="test">Advanced search</h2>
+        <form action="https://google.com/search">
+            <label for="as_q"> All these words </label>
+            <input type="text" name="as_q"><br>
+
+            <label for="as_epq"> These exact words or phrase </label>
+            <input type="text" name="as_epq"><br>
+
+            <label for="as_oq"> Any of these words </label>
+            <input type="text" name="as_oq"><br>
+
+            <label for="as_eq"> None of these words </label>
+            <input type="text" name="as_eq"><br>
+
+            <input type="submit" value="Advanced Search">
+        </form>
+
+
+    </body>
+</html>
