@@ -1,3 +1,7 @@
+body{
+    font-family: arial,sans-serif;
+}
+
 .container_center{
     display: block;
     text-align: center;
@@ -7,19 +11,8 @@
 .header{
     display: block;
     text-align: right;
-    /*position: fixed;
-    top:1%;
-    right:1%;*/
 }
 
-/*.logo{
-    display: block;
-    background-color: blue;
-    max-width: 90vw;
-    margin: auto;
-    height: 20vh;
-
-}*/
 
 img{
     display: block;
@@ -29,6 +22,7 @@ img{
     position: relative;
     margin: 10vh auto 2vh auto;    
 }
+
 
 input[type=text]{
     display: flex;
@@ -40,6 +34,7 @@ input[type=text]{
     border-radius: 24px;
     border: 1px solid #dfe1e5;
 }
+
 
 .GsearchButton{
     background-color: #f8f9fa;
