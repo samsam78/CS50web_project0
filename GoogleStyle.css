@@ -13,7 +13,6 @@ body{
     text-align: right;
 }
 
-
 img{
     display: block;
     max-width: 100%;
@@ -52,6 +51,24 @@ input[type=text]{
     cursor: pointer;
     user-select: none;
 }
+.GAdvancedSearchButton{
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+    border-radius: 4px;
+    color: white;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
 
 
 input:hover{

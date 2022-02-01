@@ -2,23 +2,22 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="GoogleStyle.css">
+        <meta charset="utf-8"/>
         <title>Search</title>
-
     </head>
     <body>
-        <div>
+        <div class="header">
             <a class="GoogleLink" href="Google_search.html"> Google search </a>
         </div>
-        <div class="logo">
-            <img src="GoogleImage.png">
+        <div class="container_center">
+            <img src="GoogleImage.png" alt="logo Google image">
+        
+            <form action="https://google.com/search?tbm=isch&">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="text" name="q">
+                <input class="GsearchButton" type="submit" value="Image Search">
+            </form>
         </div>
-
-
-        <form action="https://google.com/search?tbm=isch&">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="text" name="q">
-            <input class="GsearchButton" type="submit" value="Image Search">
-        </form>
     </body>
 </html>
 
